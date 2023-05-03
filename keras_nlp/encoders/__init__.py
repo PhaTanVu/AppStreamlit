@@ -12,3 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+"""Keras-NLP layers package definition."""
+from official.nlp.keras_nlp.encoders.bert_encoder import BertEncoder

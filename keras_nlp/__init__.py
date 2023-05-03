@@ -12,3 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+"""Keras-NLP package definition."""
+# pylint: disable=wildcard-import
+from official.nlp.keras_nlp import encoders
+from official.nlp.keras_nlp import layers

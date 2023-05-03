@@ -12,3 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+"""Masked language model network."""
+# pylint: disable=g-classes-have-attributes
+from official.nlp import keras_nlp
+
+
+MaskedLM = keras_nlp.layers.MaskedLM

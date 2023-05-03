@@ -12,3 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+"""Keras-based one-hot embedding layer."""
+# pylint: disable=g-classes-have-attributes
+
+from official.nlp import keras_nlp
+
+
+OnDeviceEmbedding = keras_nlp.layers.OnDeviceEmbedding
